@@ -195,6 +195,12 @@ Server will run at:
 http://localhost:5000
 ```
 
+## 🧩 ER Diagram
+
+The following ER diagram represents the relationships between Books, Members, Transactions, and Fines.
+
+![ER Diagram](Library-management-system-ER-diagram.png)
+
 ## 📸 API Testing Screenshots
 
 ### ➕ Add Book
