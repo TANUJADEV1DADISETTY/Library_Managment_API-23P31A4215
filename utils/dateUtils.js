@@ -1,9 +1,9 @@
-import dayjs from 'dayjs';
-
 export const getBorrowDate = () => {
-  return dayjs().toDate();
+  return new Date();
 };
 
 export const getDueDate = () => {
-  return dayjs().add(14, 'day').toDate();
+  const date = new Date();
+  date.setDate(date.getDate() + 14); // 14 days loan
+  return date;
 };
