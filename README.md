@@ -168,7 +168,6 @@ A complete Postman collection is included in this repository:
 ```bash
 git clone <your-github-repo-url>
 cd library-management-api
-
 ### 2️⃣ Install Dependencies
 npm install
 
@@ -194,3 +193,29 @@ Server will run at:
 
 http://localhost:5000
 ```
+
+## 📸 API Testing Screenshots
+
+### ➕ Add Book
+![Add Book](Screenshots/Add_book.png)
+
+### ➕ Add Member
+![Add Member](Screenshots/Add_member.png)
+
+### 📚 Get All Books
+![Get All Books](Screenshots/get_all_books.png)
+
+### 📚 Get Available Books
+![Get Available Books](Screenshots/Get_Available_books.png)
+
+### 👤 Get All Members
+![Get All Members](Screenshots/Get_all_members.png)
+
+### 🔄 Borrow Book
+![Borrow Book](Screenshots/Borrow_book.png)
+
+### 🔁 Return Book
+![Return Book](Screenshots/Return_book.png)
+
+### 💰 Pay Fine
+![Pay Fine](Screenshots/Pay_fine.png)
